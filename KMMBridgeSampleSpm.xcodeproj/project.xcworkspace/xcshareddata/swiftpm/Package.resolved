@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "kmmbridgesamplekotlin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/touchlab/KMMBridgeSampleKotlin.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e99d856db77dd08014e53bc1a15931c5a387f2e4"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -11,6 +11,7 @@
 		76EE52F728EE086700410920 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE52F628EE086700410920 /* ContentView.swift */; };
 		76EE52F928EE086800410920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EE52F828EE086800410920 /* Assets.xcassets */; };
 		76EE52FC28EE086800410920 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EE52FB28EE086800410920 /* Preview Assets.xcassets */; };
+		76EE530428EE08A300410920 /* shared in Frameworks */ = {isa = PBXBuildFile; productRef = 76EE530328EE08A300410920 /* shared */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76EE530428EE08A300410920 /* shared in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = KMMBridgeSampleSpm;
+			packageProductDependencies = (
+				76EE530328EE08A300410920 /* shared */,
+			);
 			productName = KMMBridgeSampleSpm;
 			productReference = 76EE52F128EE086700410920 /* KMMBridgeSampleSpm.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 76EE52E828EE086700410920;
+			packageReferences = (
+				76EE530228EE08A300410920 /* XCRemoteSwiftPackageReference "KMMBridgeSampleKotlin" */,
+			);
 			productRefGroup = 76EE52F228EE086700410920 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +347,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76EE530228EE08A300410920 /* XCRemoteSwiftPackageReference "KMMBridgeSampleKotlin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/touchlab/KMMBridgeSampleKotlin.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76EE530328EE08A300410920 /* shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76EE530228EE08A300410920 /* XCRemoteSwiftPackageReference "KMMBridgeSampleKotlin" */;
+			productName = shared;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 76EE52E928EE086700410920 /* Project object */;
 }
