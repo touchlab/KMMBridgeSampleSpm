@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/touchlab/KMMBridgeSampleKotlin.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "e99d856db77dd08014e53bc1a15931c5a387f2e4"
+        "revision" : "98231c18628317817ee513a5d15ec3cc0987c0e6",
+        "version" : "0.5.0"
       }
     }
   ],

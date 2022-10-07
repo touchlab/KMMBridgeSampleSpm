@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63A1DD7028EFB6C0004F9108 /* shared in Frameworks */ = {isa = PBXBuildFile; productRef = 63A1DD6F28EFB6C0004F9108 /* shared */; };
 		76EE52F528EE086700410920 /* KMMBridgeSampleSpmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE52F428EE086700410920 /* KMMBridgeSampleSpmApp.swift */; };
 		76EE52F728EE086700410920 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE52F628EE086700410920 /* ContentView.swift */; };
 		76EE52F928EE086800410920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EE52F828EE086800410920 /* Assets.xcassets */; };
 		76EE52FC28EE086800410920 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EE52FB28EE086800410920 /* Preview Assets.xcassets */; };
-		76EE530428EE08A300410920 /* shared in Frameworks */ = {isa = PBXBuildFile; productRef = 76EE530328EE08A300410920 /* shared */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76EE530428EE08A300410920 /* shared in Frameworks */,
+				63A1DD7028EFB6C0004F9108 /* shared in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = KMMBridgeSampleSpm;
 			packageProductDependencies = (
-				76EE530328EE08A300410920 /* shared */,
+				63A1DD6F28EFB6C0004F9108 /* shared */,
 			);
 			productName = KMMBridgeSampleSpm;
 			productReference = 76EE52F128EE086700410920 /* KMMBridgeSampleSpm.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = 76EE52E828EE086700410920;
 			packageReferences = (
-				76EE530228EE08A300410920 /* XCRemoteSwiftPackageReference "KMMBridgeSampleKotlin" */,
+				63A1DD6E28EFB6C0004F9108 /* XCRemoteSwiftPackageReference "KMMBridgeSampleKotlin" */,
 			);
 			productRefGroup = 76EE52F228EE086700410920 /* Products */;
 			projectDirPath = "";
@@ -349,20 +349,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		76EE530228EE08A300410920 /* XCRemoteSwiftPackageReference "KMMBridgeSampleKotlin" */ = {
+		63A1DD6E28EFB6C0004F9108 /* XCRemoteSwiftPackageReference "KMMBridgeSampleKotlin" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/touchlab/KMMBridgeSampleKotlin.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.5.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		76EE530328EE08A300410920 /* shared */ = {
+		63A1DD6F28EFB6C0004F9108 /* shared */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 76EE530228EE08A300410920 /* XCRemoteSwiftPackageReference "KMMBridgeSampleKotlin" */;
+			package = 63A1DD6E28EFB6C0004F9108 /* XCRemoteSwiftPackageReference "KMMBridgeSampleKotlin" */;
 			productName = shared;
 		};
 /* End XCSwiftPackageProductDependency section */
